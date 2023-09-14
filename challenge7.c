@@ -7,8 +7,7 @@ int main() {
     scanf("%d", &n);
 
     inv = (n % 10) * 100 + ((n / 10) % 10) * 10 + (n / 100);
-
-    printf("L'inverse est : %d", inv);
+    printf("L'inverse est : %3.d", inv);
 
     return 0;
 }

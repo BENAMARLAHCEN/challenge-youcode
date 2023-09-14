@@ -3,16 +3,13 @@
 #include <math.h>
 int main()
 {
-    int a,b,c,som;
+    int a,b,c,d,som;
     float moy;
-    printf("Enter the first numbre :");
-    scanf("%d",&a);
-    printf("Enter the next numbre :");
-    scanf("%d",&b);
-    printf("Enter the last numbre :");
-    scanf("%d",&c);
-    som=a+b+c;
-    moy=(float)som/3;
-    printf("your average is :%f",moy);
+    printf("Enter the numbres : like(a b c d)");
+    scanf("%ld %ld %ld %ld", &a, &b, &c, &d);
+    som=a+b+c+d;
+    moy=(float)som/4;
+    printf("the total is :%d \n",som);
+    printfs("your average is :%f",moy);
     return 0;
 }
