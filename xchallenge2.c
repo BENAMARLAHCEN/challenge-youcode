@@ -8,8 +8,7 @@ int main()
     scanf("%d",&num);
     if (num>=0)
     {
-        
-    
+
     for (e = 0; e < num; e++)
     {
 
