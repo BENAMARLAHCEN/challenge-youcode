@@ -6,6 +6,10 @@ int main()
 
     printf("Enter un numbre :");
     scanf("%d",&num);
+    if (num>=0)
+    {
+        
+    
     for (e = 0; e < num; e++)
     {
 
@@ -21,5 +25,22 @@ int main()
 
     
    }
+    }else {
+        for (e = 0; e < num; e++)
+    {
+
+    for (j = 0; j < e; j++){
+        printf(" ");
+        }  
+    for (i = 0; i < 2*(num-e)-1 ; i++){
+            printf("*");
+        }
+
+     
+        printf("\n");
+
+    
+   }
+    }
     return 0;
 }
