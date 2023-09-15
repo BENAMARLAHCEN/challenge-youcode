@@ -7,7 +7,7 @@ int main() {
 
     printf("Entrez les coefficients de l'equation du second degre (a, b, c) : ");
     scanf("%lf %lf %lf", &a, &b, &c);
-    D = b * b - 4 * a * c;
+    D = pow(b,2) - 4 * a * c;
 
     if (D > 0) {
         r1 = (-b + sqrt(D)) / (2 * a);
