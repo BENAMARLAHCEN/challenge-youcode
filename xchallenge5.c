@@ -2,9 +2,15 @@
 #include <stdlib.h>
 int main()
 {
-    int r,i=0;
-    r=i++;
-    printf("Enter the Ray :%d",r);
+    int a=0,n;
+    printf("entrez un nombre");
+    scanf("%d",&n);
+    do
+    {
+        a=a*10+n%10;
+        n=n/10;
+    } while (n>0);
+    printf("%d",a);
     
     
     
